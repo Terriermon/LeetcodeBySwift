@@ -1,3 +1,12 @@
+//
+//  TwoSum.swift
+//  
+//
+//  Created by chenxiaolin on 2022/7/10.
+//
+
+import Foundation
+
 /**
  要点：
  1. 使用map以target - num为key,以当前下标为value
@@ -23,3 +32,4 @@ let solution = Solution()
 solution.twoSum([2,7,11,15], 9)
 solution.twoSum([3,2,4], 6)
 solution.twoSum([3,3], 6)
+
